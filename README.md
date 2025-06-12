@@ -30,6 +30,7 @@ Flask Housing API is a simple, session-based RESTful API built using Flask, prov
 - POST	/houses	Add a new house
 - PUT	/houses/<id>	Edit a house record
 - DELETE	/houses/<id>	Delete a house
+  
 All protected routes require login via session (Flask-Login).
 
 ## 🧩 Optional Enhancements
