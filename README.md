@@ -22,14 +22,14 @@ Flask Housing API is a simple, session-based RESTful API built using Flask, prov
 - Database	SQLite (default)
 
 ## 🧪 API Endpoints
--Method	Endpoint	Description
--POST	/register	Register a new user
--POST	/login	User login
--GET	/logout	User logout
--GET	/houses	List all houses
--POST	/houses	Add a new house
--PUT	/houses/<id>	Edit a house record
--DELETE	/houses/<id>	Delete a house
+- Method	Endpoint	Description
+- POST	/register	Register a new user
+- POST	/login	User login
+- GET	/logout	User logout
+- GET	/houses	List all houses
+- POST	/houses	Add a new house
+- PUT	/houses/<id>	Edit a house record
+- DELETE	/houses/<id>	Delete a house
 All protected routes require login via session (Flask-Login).
 
 ## 🧩 Optional Enhancements
